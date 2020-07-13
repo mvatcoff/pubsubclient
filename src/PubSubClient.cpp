@@ -767,3 +767,5 @@ PubSubClient& PubSubClient::setSocketTimeout(uint16_t timeout) {
     this->socketTimeout = timeout;
     return *this;
 }
+void PubSubClient::add_topic(const char * topic){}
+void PubSubClient::subscribe_topics(){}

@@ -177,7 +177,8 @@ public:
    boolean loop();
    boolean connected();
    int state();
-
+   void add_topic(const char * topic);
+   void subscribe_topics();
 };
 
 
